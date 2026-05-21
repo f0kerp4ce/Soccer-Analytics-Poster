@@ -22,58 +22,50 @@
 % =================================================================
 
   % -- a wide block
-  \block{Summary Poster}
+  \block{Villarreal Report Summar for Attack \& Defense}
    {
-    Please summarize your report on a poster of ISO A1 size. 
-    We encourage you to use this \LaTeX\ template; 
-    if you prefer your own design,
-    please make sure that all information about  
-    the course, team, task, group, members, etc.\ is included.
+	   Villarreal CF faced a highly challenging 2025/26 UEFA Champions League campaign, struggling with defensive vulnerabilities during transition moments. This project analyzes their tactical framework, specifically examining how their in-possession organization directly impacted their overall defensive stability. By combining event and tracking data, we map their build-up patterns to identify structural flaws and pinpoint primary turnover zones. Ultimately, this research provides actionable insights to help optimize their spatial dominance and mitigate the dangers of possession losses.
    }
 
   % -- two columns of blocks
   \begin{columns} 
-  \column{0.4}
-  \block{Content}
-        {Do not try to cover everything from your report, but point out the highlights.}
-  \block{Poster Session}
-   {
-    Posters are displayed publicly
-    $$
-      \textbf{Wednesday, May 27, 9:30-14:00}
-    $$
-    in the foyer of the main building~(HG~E).
-
-    \medskip
-    At least one group member should be with the poster at all times
-    to explain ideas and answer questions.
-
-    \medskip
-    We will have them printed for you,
-    and you can keep yours afterwards.
-   }
-  \block{Grading}{Poster and wiki page are graded together, not separately.}
+  \column{0.49}
+  \block{Pitch Control}
+	  {
+		  Villarreal exhibits a patient, possession-based style characterized by heavy goalkeeper involvement and concentrated ball circulation in the central midfield. Our spatial analysis reveals a distinct lack of control deep in the opponent's half, highlighting a heavy reliance on short, horizontal ground passes to manage the tempo of the game. However, this deep-seated possession often leaves the team struggling to penetrate the final third efficiently. Occasional long passes from the backline are utilized merely as situational tools to bypass high pressure rather than as a primary attacking mechanism.
+	\includegraphics[width=50ex]{pitch_control}\hfill
+	}
 
   % right column is wider
-  \column{0.6}
-    \block{This is \texttt{tikzposter}}
+  \column{0.51}
+    \block{Turnover Types and their Dangers}
      {
-      Please refer to the documentation of this standard package
-      in case you want to change appearance or layout.
-     }
-    \block{Boxes}{boxes can be one or many\dots}
-    \block{}{\dots and need not have a title}
-    \block{Images}
-     {
-      \includegraphics[height=2ex]{ethz}\hfill
-      please use vector graphics or high resolution
+      \includegraphics[width=50ex]{turnover_outcomes}\hfill
+      Poor passing accounts for over 80\% of Villarreal's total possession losses, with a highly exploitable vulnerability corridor identified on the right flank. The team generally exhibits low ball-recovery rates within 10 seconds of a turnover, preferring to retreat into a structured defensive shape rather than aggressively counter-pressing. While this conservative approach successfully limits opponent shots for most turnover types, losing the ball via direct dispossession remains a critical tactical flaw. These one-on-one duel losses are exceptionally dangerous, resulting in poor recovery times and a disproportionately high rate of opponent shots.
      }
   \end{columns}
 
   % -- a wide block
-  \block{Main Findings, Lessons Learned, Ideas for the Future}
-        {just an example of how your summary might end}
-  \block{fegget euch der noobs}
+  \block{Conclusion}
+  	{
+		While highly effective domestically, Villarreal’s possession-heavy tactical framework exposed severe structural vulnerabilities against elite Champions League opposition. Deep, patient build-up play frequently resulted in dangerous turnovers, particularly when players were forced into low-percentage long balls or trapped along the right flank. To bridge the gap to Europe's elite, the coaching staff must implement systematic counter-pressing triggers to accelerate post-loss recovery and stabilize defensive transitions.
+	}
+  \block{Ideas for Further Investigation}
+	{
+		Future research should leverage continuous tracking data to directly compare player recovery trajectories and fatigue levels in Champions League fixtures against their successful domestic matches. Additionally, evaluating the spatial positioning of opponent defensive blocks could isolate the exact pressing triggers that force Villarreal into high-volume passing errors.
+	
+	\begin{enumerate}
+		\item introduction
+	 	\item pitch control
+		\item turnover types
+		\item conclusion
+	 	\item ideas for further investigation
+	\end{enumerate}
+	\begin{checkbox}
+		sanity check
+		spell check
+	\end{checkbox}
+	 }
 
 
 % =================================================================
